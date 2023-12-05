@@ -10,3 +10,10 @@ btnLimpar.addEventListener('click', limparElementosDaLista);
 btnAdicionar.addEventListener('click', criaElementoNaLista);
 btnRemover.addEventListener('click', removeItemDaLista);
 
+function criaElementoNaLista(){
+    const texto = pEntrada.textContent;
+    adicionaNaLista(texto);
+    atualizarItensDeLista();
+    pEntrada.textContent="";
+    pEntrada.focus();
+}
