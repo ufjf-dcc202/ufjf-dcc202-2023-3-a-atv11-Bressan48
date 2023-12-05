@@ -10,12 +10,12 @@ export function limpaLista()
     lista.splice(0);
 }
 
-export function adicionaNaLista()
+export function adicionaNaLista(novoItem)
 {
     lista.push(novoItem);
 }
 
-export function removeDaLista()
+export function removeDaLista(posicao)
 {
     lista.splice(posicao, 1);
 }
