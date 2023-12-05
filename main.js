@@ -5,3 +5,8 @@ const olSaida = document.querySelector('#itens');
 const btnAdicionar = document.querySelector('#adicionar');
 const btnLimpar = document.querySelector('#limpar');
 const btnRemover = document.querySelector('#remover');
+
+btnLimpar.addEventListener('click', limparElementosDaLista);
+btnAdicionar.addEventListener('click', criaElementoNaLista);
+btnRemover.addEventListener('click', removeItemDaLista);
+
